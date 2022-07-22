@@ -153,6 +153,10 @@ img {
         width: 80%;
     }
 
+    .steps {
+        margin: 0;
+    }
+
     .lessons .col img {
         padding: 40px 0;
         height: max-content;
@@ -169,5 +173,21 @@ img {
 
     .why-us .col-left {
         width: 80%;
+    }
+
+    .why-us {
+        background-color: black;
+        margin-bottom: 0;
+
+    }
+}
+
+@media screen and (max-width: 1160px) {
+    section {
+        display: flex;
+    }
+
+    .container {
+        flex-grow: 1;
     }
 }
