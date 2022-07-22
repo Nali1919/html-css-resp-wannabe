@@ -125,6 +125,23 @@ img {
     margin-bottom: 2.5rem;
 }
 
-/************************************************
-    SOLUZIONE RESPONSIVE
- ************************************************/
+/* mediaquerry */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 5px;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 650px;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
