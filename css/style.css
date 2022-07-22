@@ -185,9 +185,8 @@ img {
 @media screen and (max-width: 1160px) {
     section {
         display: flex;
+        flex-wrap: wrap;
     }
 
-    .container {
-        flex-grow: 1;
-    }
+
 }
